@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: DimGrey;
+  color: white;
+  height: 100%;
+}
+
+.fieldTitle {
+  margin-top: 7px;
+  text-align: right;
+}
+
+.textList {
+  text-align: right;
+  margin-right: 35px;
+  border: 1px solid powderblue;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.combatLog {
+  text-align: left;
+}
+
+.selected {
+  color: powderblue;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.notSelected {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.notHidden {
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
